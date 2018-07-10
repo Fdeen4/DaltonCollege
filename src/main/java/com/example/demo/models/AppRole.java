@@ -16,12 +16,12 @@ public class AppRole {
     private String roleName;
 
     public AppRole(){
-        this.users = new HashSet<>();
+        users = new HashSet<>();
     }
 
     public AppRole(String roleName){
         this.roleName = roleName;
-        this.users = new HashSet<>();
+        users = new HashSet<>();
     }
 
     public long getId() {

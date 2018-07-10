@@ -73,7 +73,5 @@ public class AppUser {
     public void setRoles(Set<AppRole> roles) {
         this.roles = roles;
     }
-
-
 }
 
